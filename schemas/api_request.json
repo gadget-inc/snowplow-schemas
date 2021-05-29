@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "title": "api_request",
+  "description": "A request made to the API for a Gadget application",
+  "properties": {
+    "application_id": {
+      "type": "string"
+    },
+    "environment_id": {
+      "type": "string"
+    },
+    "errored": {
+      "type": "boolean"
+    }
+  }
+}
