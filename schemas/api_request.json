@@ -9,6 +9,15 @@
     "environment_id": {
       "type": "string"
     },
+    "gadget_user_id": {
+      "type": "string"
+    },
+    "app_session_id": {
+      "type": "string"
+    },
+    "app_identity_id": {
+      "type": "string"
+    },
     "errored": {
       "type": "boolean"
     }
