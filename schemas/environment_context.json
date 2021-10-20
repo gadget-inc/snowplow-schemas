@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "title": "environment_context",
+  "description": "The details of the environment an event occurred in",
+  "properties": {
+    "application_id": {
+      "type": "string"
+    },
+    "environment_id": {
+      "type": "string"
+    }
+  }
+}
