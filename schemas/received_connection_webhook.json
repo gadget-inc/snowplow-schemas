@@ -1,7 +1,7 @@
 {
   "type": "object",
-  "title": "api_request",
-  "description": "A request made to the API for a Gadget application",
+  "title": "received_connection_webhook",
+  "description": "A request sent by a third party platform to a connection's webhook reception endpoint for a Gadget application",
   "properties": {
     "application_id": {
       "type": "string"
@@ -9,20 +9,17 @@
     "environment_id": {
       "type": "string"
     },
-    "gadget_user_id": {
+    "connection_type": {
       "type": "string"
     },
-    "app_session_id": {
+    "connection_key": {
       "type": "string"
     },
-    "app_identity_id": {
+    "topic": {
       "type": "string"
     },
     "errored": {
       "type": "boolean"
-    },
-    "duration_ms": {
-      "type": "number"
     }
   }
 }
